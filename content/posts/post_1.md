@@ -1,5 +1,5 @@
 ---
-title: "Mi ruta de aprendizaje"
+title: "Mi ruta de aprendizaje Front-end"
 date: 2022-03-01
 description: 'Mi travesia en LaunchX de Innovaccion Virtual'
 ---
