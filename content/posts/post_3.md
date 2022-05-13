@@ -1,6 +1,6 @@
 ---
 title: "Mi ruta de apredizaje"
-date: 2022-04-10
+date: 2022-04-15
 description: 'Mi viaje por Back-End de LaunchX'
 ---
 
