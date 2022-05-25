@@ -6,7 +6,21 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Diego Huh Cob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://diegohc06.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://diegohc06.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mi ruta de apredizaje</title>
+      <link>https://diegohc06.github.io/my_launchx_blog/posts/post_5/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegohc06.github.io/my_launchx_blog/posts/post_5/</guid>
+      <description>Hola visitante
+en este post aprenderemos a crear un proyecto con javaScript
+Para la creacion del proyecto utilizaremos Node.js
+Es un entorno de tiempo de ejecución JavaScript de código abierto y multiplataforma. ¡Es una herramienta popular para casi cualquier tipo de proyecto!
+para eso tenemos que descargar e instalar el Node.js en nuestro equipo.
+Descargar Nodejs Creacion de carpeta Crear una carptea para tu proyecto, puedes nombrarlo a tu gusto y otras dos, una llamada app y la otra test</description>
+    </item>
+    
     <item>
       <title>Mi ruta de apredizaje</title>
       <link>https://diegohc06.github.io/my_launchx_blog/posts/post_4/</link>
