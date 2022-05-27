@@ -19,7 +19,7 @@ description: 'Crear un proyecto de JS'
  
 -----------
 
-##  Creacion de carpeta 
+##  Creación de carpeta 
  
 Crear una carptea para tu proyecto, puedes nombrarlo a tu gusto y otras dos, una llamada app y la otra test
 
