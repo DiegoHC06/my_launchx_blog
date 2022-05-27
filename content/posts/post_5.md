@@ -1,5 +1,5 @@
 ---
-title: "Proyecto JS
+title: "Proyecto JS"
 date: 2022-05-24
 description: 'Crear un proyecto de JS'
 ---
