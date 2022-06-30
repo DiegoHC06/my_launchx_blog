@@ -28,7 +28,9 @@ Descargar Nodejs
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://diegohc06.github.io/my_launchx_blog/posts/post_6/</guid>
-      <description></description>
+      <description>Antes de seguir con la lectura&amp;hellip; Hola visitante
+Quisiera mencionar Git y github lo confunden mucho, pero la realidad es que ambos son distintos.
+ Git es un sistema de control de versiones, esta Diseñado para manejar desde grandes a pequeños proyectos y es un free and open source. GitHub es una plataforma de desarrollo colaborativo, permitiendo alojar proyectos utilizando el sistema de control de version el Git,  Ultimamente conforme he estado investigando tanto viendo tutoriales, libros y por medio del internet, cuando se empieza a realizar un proyecto lo primordial a saber es el Git, este sistema nos facilita mucho el trabajo, imaginate empezar un proyecto llamado &amp;lsquo;mi-primer-proyeco&amp;rsquo; luego conforme vayamos haciendo cambios no queremos dañar el original, por lo que optamos por crear una copiar, así sucesivamente hasta tener un varios por motivo de cambios, con este sistemas podremos evitar crear miles de copias del primer proyecto llamandoles de distintos nombres e igual nos ayudaria a la colaboración y trabajo en equipo.</description>
     </item>
     
     <item>
