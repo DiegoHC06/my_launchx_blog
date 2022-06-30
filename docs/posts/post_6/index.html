@@ -68,14 +68,14 @@
 </ul>
 <p>Ultimamente conforme he estado investigando tanto viendo tutoriales, libros y por medio del internet, cuando se empieza a realizar un proyecto lo primordial a saber es el Git, este sistema nos facilita mucho el trabajo, imaginate empezar un proyecto llamado &lsquo;mi-primer-proyeco&rsquo; luego conforme vayamos haciendo cambios no queremos dañar el original, por lo que optamos por crear una copiar, así sucesivamente hasta tener un varios por motivo de cambios, con este sistemas podremos evitar crear miles de copias del primer proyecto llamandoles de distintos nombres e igual nos ayudaria a la colaboración y trabajo en equipo.</p>
 <p>para usar el git tienes que tener instalado <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Guía de Instalación</a></p>
-<p>para empezar a usar Git no estan tan complicado, por lo que te mostrare los comando básicos.</p>
+<p>para empezar a usar Git no estan tan complicado, por lo que te mostraré los comando básicos.</p>
 <p>-Abrir su terminal favorita.</p>
 <p>Crear una carpeta, será el principal que se ejecutara el git para que reconozca todo dentro.</p>
 <p>Ejecutamos el siguiente comando</p>
 <blockquote>
 <p>mkdir mi-proyecto</p>
 </blockquote>
-<p>para versionar el proyecto ejecutamos el comando siguiente comando.</p>
+<p>para versionar el proyecto ejecutamos el siguiente comando.</p>
 <blockquote>
 <p>Git init</p>
 </blockquote>
@@ -83,11 +83,17 @@
 <blockquote>
 <p>Git status</p>
 </blockquote>
-<p>nos va ayudar a conocer los archivos que estara versionando Git, y así mismo poder indicarle los archivos necesarios versionar.</p>
+<p>nos va ayudar a conocer los archivos que estara versionando Git, y así mismo poder seleccionar los archivos necesarios versionar.</p>
 <blockquote>
-<p>Git add hola.txt
-Git add *</p>
+<p>git ignore *.doc</p>
 </blockquote>
+<p>antes de indicarle a git que archivos versionar, debemos tener encuenta que hay archivos no es necesario versionar, ya que por lo generar son llamados archivos temporales, es decir que pueden volver a crear cada vez que se ejecuta un comando. primero tienes que crear un archivo - .gitignore- tene que estar en la carpeta principal del proyecto, con este comando podemos indicarle a git que no queremos
+que esos archivos sean versionados. sin embargo hay un reposistorio que puede ayudarte a ver que archivos pueden ser agregados al archivo ignore - link del <a href="https://github.com/github/gitignore">gitignore</a></p>
+<blockquote>
+<p>Git add hola.txt</p>
+<p>Git add *</p>
+</blockquote>
+<p>una vez visualizado los archivos que el git reconoce para versionar. ahora toca indicarle a git que archivos se van a versionar, por lo que hay dos maneras, la primera es indicandole mediante el comando add  seguido del nombre del archivo y su extesión como se muestra anteriormente y la segunda es indicarle que todos los archivos que se encuentren en la caperta principal y subcarpetas sin importar la extensión del archivo.</p>
 
     </div>
   </div>
