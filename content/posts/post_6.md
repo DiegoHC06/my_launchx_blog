@@ -20,7 +20,7 @@ para usar el git tienes que tener instalado [Guía de Instalación](https://git-
 
 
 
-para empezar a usar Git no estan tan complicado, por lo que te mostrare los comando básicos. 
+para empezar a usar Git no estan tan complicado, por lo que te mostraré los comando básicos. 
 
 -Abrir su terminal favorita.
 
@@ -31,7 +31,7 @@ Ejecutamos el siguiente comando
 > mkdir mi-proyecto
 
 
-para versionar el proyecto ejecutamos el comando siguiente comando. 
+para versionar el proyecto ejecutamos el siguiente comando. 
 
 > Git init
 
@@ -40,8 +40,19 @@ este crea un subdirectorio con sus componentes necesarios denominado .git y lo m
 
 > Git status
 
-nos va ayudar a conocer los archivos que estara versionando Git, y así mismo poder indicarle los archivos necesarios versionar.
+nos va ayudar a conocer los archivos que estara versionando Git, y así mismo poder seleccionar los archivos necesarios versionar.
+
+
+> git ignore *.doc
+
+antes de indicarle a git que archivos versionar, debemos tener encuenta que hay archivos no es necesario versionar, ya que por lo generar son llamados archivos temporales, es decir que pueden volver a crear cada vez que se ejecuta un comando. primero tienes que crear un archivo - .gitignore- tene que estar en la carpeta principal del proyecto, con este comando podemos indicarle a git que no queremos 
+que esos archivos sean versionados. sin embargo hay un reposistorio que puede ayudarte a ver que archivos pueden ser agregados al archivo ignore - link del [gitignore](https://github.com/github/gitignore) 
+
 
 
 > Git add hola.txt
+> 
 > Git add * 
+
+una vez visualizado los archivos que el git reconoce para versionar. ahora toca indicarle a git que archivos se van a versionar, por lo que hay dos maneras, la primera es indicandole mediante el comando add  seguido del nombre del archivo y su extesión como se muestra anteriormente y la segunda es indicarle que todos los archivos que se encuentren en la caperta principal y subcarpetas sin importar la extensión del archivo.
+
