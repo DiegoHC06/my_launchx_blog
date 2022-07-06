@@ -54,5 +54,12 @@ que esos archivos sean versionados. sin embargo hay un reposistorio que puede ay
 > 
 > Git add * 
 
-una vez visualizado los archivos que el git reconoce para versionar. ahora toca indicarle a git que archivos se van a versionar, por lo que hay dos maneras, la primera es indicandole mediante el comando add  seguido del nombre del archivo y su extesión como se muestra anteriormente y la segunda es indicarle que todos los archivos que se encuentren en la caperta principal y subcarpetas sin importar la extensión del archivo.
+una vez visualizado los archivos que el git reconoce para versionar. ahora toca indicarle a git que archivos se van a versionar, por lo que hay dos maneras, la primera es indicandole mediante el comando add  seguido del nombre del archivo y su extesión como se muestra anteriormente y la segunda es indicarle que todos los archivos que se encuentren en la caperta principal y subcarpetas sin importar la extensión del archivo. puede volver aplicar el comando git status.
 
+>Git commit -m "first commit" 
+
+ya agregamos los archivos que se versionaran,  este comando es una de las funciones esenciales principales de Git, este nos permitara realizar la confirmación de los
+procesos y los cambios conforme vayamos trabajando en el proyecto, no ayudara crear un punto de restauracion por si en el proceso se comete un error o realizar un cambio.
+ > * A - Archivos añadidos al escenario
+ > *  M - Archivos modificados
+ > *  D - Archivos eliminados
