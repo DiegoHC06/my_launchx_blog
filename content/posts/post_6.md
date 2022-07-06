@@ -59,7 +59,11 @@ una vez visualizado los archivos que el git reconoce para versionar. ahora toca 
 >Git commit -m "first commit" 
 
 ya agregamos los archivos que se versionaran,  este comando es una de las funciones esenciales principales de Git, este nos permitara realizar la confirmación de los
-procesos y los cambios conforme vayamos trabajando en el proyecto, no ayudara crear un punto de restauracion por si en el proceso se comete un error o realizar un cambio.
+procesos y los cambios conforme vayamos trabajando en el proyecto, no ayudara crear un punto de restauracion por si en el proceso se comete un error o realizar un cambio. los siguiente son las lletras que usan durante un commit
  > * A - Archivos añadidos al escenario
  > *  M - Archivos modificados
  > *  D - Archivos eliminados
+
+>Git log
+
+permite visualizar los commit que se tienen hecho y en la rama. no ayudaria a visualizar los puntos de restauración del proyecto.
