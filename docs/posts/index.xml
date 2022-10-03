@@ -8,12 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://diegohc06.github.io/my_launchx_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Comando bsic</title>
+      <title>Comandos basicos</title>
       <link>https://diegohc06.github.io/my_launchx_blog/posts/post_7/</link>
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://diegohc06.github.io/my_launchx_blog/posts/post_7/</guid>
-      <description></description>
+      <description>#Bienvenido
+Todo sistema operativo contiene un CLI que significado es interfaz linea de comando por sus siglas en ingles, pero linux tiene su uso más en linea de comandos, que otros como windows y mac tiene mas interfaz graficas. que es la razón por la que linux es mas en servidores mientras que los otros sistemas apuestan más a la interfaz grafia de usuario, pero tampoco es pensar que solo es para usuarios avanzados, cualquier persona puede usarlo solo es quitarse el miedo, aunque puede ir realizando pruebas montando una maquina virtual.</description>
     </item>
     
     <item>
