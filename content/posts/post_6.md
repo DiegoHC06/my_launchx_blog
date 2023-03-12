@@ -99,3 +99,9 @@ procesos y los cambios conforme vayamos trabajando en el proyecto, no ayudara cr
 >Git log
 
 permite visualizar los commit que se tienen hecho y en la rama. no ayudaria a visualizar los puntos de restauración del proyecto.
+
+>Git help
+
+Permite visualizar la informacion de todo los comandos, en caso que se olvide un comando y este puede ayudarlo a recordar, así como igual puede tener de un solo comando usando el siguiente : 
+
+git <command> --help
