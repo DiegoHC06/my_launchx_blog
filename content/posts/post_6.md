@@ -17,12 +17,34 @@ Quisiera mencionar Git y github lo confunden mucho, pero la realidad es que ambo
 Ultimamente conforme he estado investigando tanto viendo tutoriales, libros y por medio del internet, cuando se empieza a realizar un proyecto lo primordial a saber es el Git, este sistema nos facilita mucho el trabajo, imaginate empezar un proyecto llamado 'mi-primer-proyeco' luego conforme vayamos haciendo cambios no queremos dañar el original, por lo que optamos por crear una copiar, así sucesivamente hasta tener un varios por motivo de cambios, con este sistemas podremos evitar crear miles de copias del primer proyecto llamandoles de distintos nombres e igual nos ayudaria a la colaboración y trabajo en equipo.
 
 para usar el git tienes que tener instalado [Guía de Instalación](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
+ 
+puedes visualizar la version con el siguiente comando
 
+>git --version
 
 
 para empezar a usar Git no estan tan complicado, por lo que te mostraré los comando básicos. 
 
 -Abrir su terminal favorita.
+-COnfiguramos Git, Primero tenemos que definir algunas variables globales el user.name y user.email, ambas son necesarias para las confirmaciones 
+
+Establecemos un nombre con el siguiente comando, remplazando el <USER_NAME> por un nombre que se desea usar.
+
+> git config --global user.name "<USER_NAME>"
+
+ahora establecemos un corre con el siguiente comando,remplazando el <USER_EMAIL> por su dirección de correo electrónico .
+> git config --global user.email "<USER_EMAIL>"
+
+ahora para validar la información usamos el siguiente comando 
+
+> git config --list 
+
+obteniendo una salida de información como el ejemplo 
+
+user.name=Diegohc
+user.email=soygit@correo.com
+
+##Es momento de crear un directorio proyecto
 
 Crear una carpeta, será el principal que se ejecutara el git para que reconozca todo dentro. 
 
@@ -30,10 +52,20 @@ Ejecutamos el siguiente comando
 
 > mkdir mi-proyecto
 
+accedemos a la carpeta
 
-para versionar el proyecto ejecutamos el siguiente comando. 
+cd mi-proyecto
+
+para versionar el proyecto ejecutamos el siguiente comando. para la versione 2.28.0 o superior se aplica un distinto comando que ayuda facilitar el inicio y la creación de la rama main, pueden ser dos comando diferentes:
+
+>git init --initial-branch=main
+>git init -b main
+
+para versiones anterios el tradicional. 
 
 > Git init
+creación de la rama main y el cambio.
+> git checkout -b main
 
 este crea un subdirectorio con sus componentes necesarios denominado .git y lo mantiene oculto
 
