@@ -68,16 +68,46 @@
 </ul>
 <p>Ultimamente conforme he estado investigando tanto viendo tutoriales, libros y por medio del internet, cuando se empieza a realizar un proyecto lo primordial a saber es el Git, este sistema nos facilita mucho el trabajo, imaginate empezar un proyecto llamado &lsquo;mi-primer-proyeco&rsquo; luego conforme vayamos haciendo cambios no queremos dañar el original, por lo que optamos por crear una copiar, así sucesivamente hasta tener un varios por motivo de cambios, con este sistemas podremos evitar crear miles de copias del primer proyecto llamandoles de distintos nombres e igual nos ayudaria a la colaboración y trabajo en equipo.</p>
 <p>para usar el git tienes que tener instalado <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Guía de Instalación</a></p>
+<p>puedes visualizar la version con el siguiente comando</p>
+<blockquote>
+<p>git &ndash;version</p>
+</blockquote>
 <p>para empezar a usar Git no estan tan complicado, por lo que te mostraré los comando básicos.</p>
-<p>-Abrir su terminal favorita.</p>
+<p>-Abrir su terminal favorita.
+-COnfiguramos Git, Primero tenemos que definir algunas variables globales el user.name y user.email, ambas son necesarias para las confirmaciones</p>
+<p>Establecemos un nombre con el siguiente comando, remplazando el &lt;USER_NAME&gt; por un nombre que se desea usar.</p>
+<blockquote>
+<p>git config &ndash;global user.name &ldquo;&lt;USER_NAME&gt;&rdquo;</p>
+</blockquote>
+<p>ahora establecemos un corre con el siguiente comando,remplazando el &lt;USER_EMAIL&gt; por su dirección de correo electrónico .</p>
+<blockquote>
+<p>git config &ndash;global user.email &ldquo;&lt;USER_EMAIL&gt;&rdquo;</p>
+</blockquote>
+<p>ahora para validar la información usamos el siguiente comando</p>
+<blockquote>
+<p>git config &ndash;list</p>
+</blockquote>
+<p>obteniendo una salida de información como el ejemplo</p>
+<p>user.name=Diegohc
+<a href="mailto:user.email=soygit@correo.com">user.email=soygit@correo.com</a></p>
+<p>##Es momento de crear un directorio proyecto</p>
 <p>Crear una carpeta, será el principal que se ejecutara el git para que reconozca todo dentro.</p>
 <p>Ejecutamos el siguiente comando</p>
 <blockquote>
 <p>mkdir mi-proyecto</p>
 </blockquote>
-<p>para versionar el proyecto ejecutamos el siguiente comando.</p>
+<p>accedemos a la carpeta</p>
+<p>cd mi-proyecto</p>
+<p>para versionar el proyecto ejecutamos el siguiente comando. para la versione 2.28.0 o superior se aplica un distinto comando que ayuda facilitar el inicio y la creación de la rama main, pueden ser dos comando diferentes:</p>
 <blockquote>
-<p>Git init</p>
+<p>git init &ndash;initial-branch=main
+git init -b main</p>
+</blockquote>
+<p>para versiones anterios el tradicional.</p>
+<blockquote>
+<p>Git init
+creación de la rama main y el cambio.
+git checkout -b main</p>
 </blockquote>
 <p>este crea un subdirectorio con sus componentes necesarios denominado .git y lo mantiene oculto</p>
 <blockquote>
