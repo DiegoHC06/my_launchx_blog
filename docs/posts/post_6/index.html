@@ -73,8 +73,10 @@
 <p>git &ndash;version</p>
 </blockquote>
 <p>para empezar a usar Git no estan tan complicado, por lo que te mostraré los comando básicos.</p>
-<p>-Abrir su terminal favorita.
--COnfiguramos Git, Primero tenemos que definir algunas variables globales el user.name y user.email, ambas son necesarias para las confirmaciones</p>
+<ul>
+<li>Abrir su terminal favorita.</li>
+<li>Configuramos Git, Primero tenemos que definir algunas variables globales el user.name y user.email, ambas son necesarias para las confirmaciones</li>
+</ul>
 <p>Establecemos un nombre con el siguiente comando, remplazando el &lt;USER_NAME&gt; por un nombre que se desea usar.</p>
 <blockquote>
 <p>git config &ndash;global user.name &ldquo;&lt;USER_NAME&gt;&rdquo;</p>
@@ -90,7 +92,7 @@
 <p>obteniendo una salida de información como el ejemplo</p>
 <p>user.name=Diegohc
 <a href="mailto:user.email=soygit@correo.com">user.email=soygit@correo.com</a></p>
-<p>##Es momento de crear un directorio proyecto</p>
+<h2 id="es-momento-de-crear-un-directorio-proyecto">Es momento de crear un directorio proyecto</h2>
 <p>Crear una carpeta, será el principal que se ejecutara el git para que reconozca todo dentro.</p>
 <p>Ejecutamos el siguiente comando</p>
 <blockquote>
@@ -100,18 +102,20 @@
 <p>cd mi-proyecto</p>
 <p>para versionar el proyecto ejecutamos el siguiente comando. para la versione 2.28.0 o superior se aplica un distinto comando que ayuda facilitar el inicio y la creación de la rama main, pueden ser dos comando diferentes:</p>
 <blockquote>
-<p>git init &ndash;initial-branch=main
-git init -b main</p>
+<p>git init &ndash;initial-branch=main</p>
+<p>git init -b main</p>
 </blockquote>
 <p>para versiones anterios el tradicional.</p>
 <blockquote>
-<p>Git init
-creación de la rama main y el cambio.
-git checkout -b main</p>
+<p>git init</p>
+</blockquote>
+<p>creación de la rama main y el cambio.</p>
+<blockquote>
+<p>git checkout -b main</p>
 </blockquote>
 <p>este crea un subdirectorio con sus componentes necesarios denominado .git y lo mantiene oculto</p>
 <blockquote>
-<p>Git status</p>
+<p>git status</p>
 </blockquote>
 <p>nos va ayudar a conocer los archivos que estara versionando Git, y así mismo poder seleccionar los archivos necesarios versionar.</p>
 <blockquote>
@@ -120,12 +124,12 @@ git checkout -b main</p>
 <p>antes de indicarle a git que archivos versionar, debemos tener encuenta que hay archivos no es necesario versionar, ya que por lo generar son llamados archivos temporales, es decir que pueden volver a crear cada vez que se ejecuta un comando. primero tienes que crear un archivo - .gitignore- tene que estar en la carpeta principal del proyecto, con este comando podemos indicarle a git que no queremos
 que esos archivos sean versionados. sin embargo hay un reposistorio que puede ayudarte a ver que archivos pueden ser agregados al archivo ignore - link del <a href="https://github.com/github/gitignore">gitignore</a></p>
 <blockquote>
-<p>Git add hola.txt</p>
-<p>Git add *</p>
+<p>git add hola.txt</p>
+<p>git add *</p>
 </blockquote>
 <p>una vez visualizado los archivos que el git reconoce para versionar. ahora toca indicarle a git que archivos se van a versionar, por lo que hay dos maneras, la primera es indicandole mediante el comando add  seguido del nombre del archivo y su extesión como se muestra anteriormente y la segunda es indicarle que todos los archivos que se encuentren en la caperta principal y subcarpetas sin importar la extensión del archivo. puede volver aplicar el comando git status.</p>
 <blockquote>
-<p>Git commit -m &ldquo;first commit&rdquo;</p>
+<p>git commit -m &ldquo;first commit&rdquo;</p>
 </blockquote>
 <p>ya agregamos los archivos que se versionaran,  este comando es una de las funciones esenciales principales de Git, este nos permitara realizar la confirmación de los
 procesos y los cambios conforme vayamos trabajando en el proyecto, no ayudara crear un punto de restauracion por si en el proceso se comete un error o realizar un cambio. los siguiente son las lletras que usan durante un commit</p>
@@ -137,14 +141,16 @@ procesos y los cambios conforme vayamos trabajando en el proyecto, no ayudara cr
 </ul>
 </blockquote>
 <blockquote>
-<p>Git log</p>
+<p>git log</p>
 </blockquote>
 <p>permite visualizar los commit que se tienen hecho y en la rama. no ayudaria a visualizar los puntos de restauración del proyecto.</p>
 <blockquote>
-<p>Git help</p>
+<p>git help</p>
 </blockquote>
 <p>Permite visualizar la informacion de todo los comandos, en caso que se olvide un comando y este puede ayudarlo a recordar, así como igual puede tener de un solo comando usando el siguiente :</p>
+<blockquote>
 <p>git <!-- raw HTML omitted --> &ndash;help</p>
+</blockquote>
 
     </div>
   </div>
