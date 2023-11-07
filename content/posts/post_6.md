@@ -25,8 +25,8 @@ puedes visualizar la version con el siguiente comando
 
 para empezar a usar Git no estan tan complicado, por lo que te mostraré los comando básicos. 
 
--Abrir su terminal favorita.
--COnfiguramos Git, Primero tenemos que definir algunas variables globales el user.name y user.email, ambas son necesarias para las confirmaciones 
+- Abrir su terminal favorita.
+- Configuramos Git, Primero tenemos que definir algunas variables globales el user.name y user.email, ambas son necesarias para las confirmaciones 
 
 Establecemos un nombre con el siguiente comando, remplazando el <USER_NAME> por un nombre que se desea usar.
 
@@ -44,7 +44,7 @@ obteniendo una salida de información como el ejemplo
 user.name=Diegohc
 user.email=soygit@correo.com
 
-##Es momento de crear un directorio proyecto
+## Es momento de crear un directorio proyecto
 
 Crear una carpeta, será el principal que se ejecutara el git para que reconozca todo dentro. 
 
@@ -58,19 +58,21 @@ cd mi-proyecto
 
 para versionar el proyecto ejecutamos el siguiente comando. para la versione 2.28.0 o superior se aplica un distinto comando que ayuda facilitar el inicio y la creación de la rama main, pueden ser dos comando diferentes:
 
->git init --initial-branch=main
->git init -b main
+> git init --initial-branch=main
+> 
+> git init -b main
 
 para versiones anterios el tradicional. 
 
-> Git init
+> git init
+
 creación de la rama main y el cambio.
 > git checkout -b main
 
 este crea un subdirectorio con sus componentes necesarios denominado .git y lo mantiene oculto
 
 
-> Git status
+> git status
 
 nos va ayudar a conocer los archivos que estara versionando Git, y así mismo poder seleccionar los archivos necesarios versionar.
 
@@ -82,13 +84,13 @@ que esos archivos sean versionados. sin embargo hay un reposistorio que puede ay
 
 
 
-> Git add hola.txt
+> git add hola.txt
 > 
-> Git add * 
+> git add * 
 
 una vez visualizado los archivos que el git reconoce para versionar. ahora toca indicarle a git que archivos se van a versionar, por lo que hay dos maneras, la primera es indicandole mediante el comando add  seguido del nombre del archivo y su extesión como se muestra anteriormente y la segunda es indicarle que todos los archivos que se encuentren en la caperta principal y subcarpetas sin importar la extensión del archivo. puede volver aplicar el comando git status.
 
->Git commit -m "first commit" 
+> git commit -m "first commit" 
 
 ya agregamos los archivos que se versionaran,  este comando es una de las funciones esenciales principales de Git, este nos permitara realizar la confirmación de los
 procesos y los cambios conforme vayamos trabajando en el proyecto, no ayudara crear un punto de restauracion por si en el proceso se comete un error o realizar un cambio. los siguiente son las lletras que usan durante un commit
@@ -96,12 +98,12 @@ procesos y los cambios conforme vayamos trabajando en el proyecto, no ayudara cr
  > *  M - Archivos modificados
  > *  D - Archivos eliminados
 
->Git log
+> git log
 
 permite visualizar los commit que se tienen hecho y en la rama. no ayudaria a visualizar los puntos de restauración del proyecto.
 
->Git help
+> git help
 
 Permite visualizar la informacion de todo los comandos, en caso que se olvide un comando y este puede ayudarlo a recordar, así como igual puede tener de un solo comando usando el siguiente : 
 
-git <command> --help
+> git <command> --help
